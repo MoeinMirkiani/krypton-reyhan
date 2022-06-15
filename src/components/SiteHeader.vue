@@ -10,10 +10,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .header {
     height: 140px;
-    background-color: #fff;
 
     &__container {
         height: 140px;
