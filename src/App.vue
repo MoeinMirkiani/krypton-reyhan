@@ -1,6 +1,11 @@
 <template>
+    <SiteHeader />
     <router-view/>
 </template>
+
+<script setup>
+import SiteHeader from '@/components/SiteHeader'
+</script>
 
 <style>
 * {
