@@ -1,10 +1,8 @@
 <template>
     <header class="header">
         <div class="header__container">
-            <KButton
-
-            >
-                button
+            <KButton>
+                {{ $t('message.hello') }}
             </KButton>
         </div>
     </header>

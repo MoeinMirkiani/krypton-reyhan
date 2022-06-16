@@ -8,7 +8,6 @@
 </template>
 
 <script setup>
-// eslint-disable-next-line no-undef
 defineProps({
     color: {
         type: String,
