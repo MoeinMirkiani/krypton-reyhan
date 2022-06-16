@@ -13,5 +13,6 @@ import SiteHeader from '@/components/SiteHeader'
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    font-family: Saira, sans-serif;
 }
 </style>

@@ -1,13 +1,17 @@
 <template>
     <header class="header">
-        <div class="header__container"></div>
+        <div class="header__container">
+            <KButton
+                color="secondary"
+            >
+                button
+            </KButton>
+        </div>
     </header>
 </template>
 
-<script>
-export default {
-    name: "SiteHeader"
-}
+<script setup>
+import KButton from '@/components/layout/KButton'
 </script>
 
 <style lang="scss">
