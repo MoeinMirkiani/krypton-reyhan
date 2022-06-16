@@ -1,7 +1,7 @@
 <template>
     <button
         class="btn-component"
-        :class="color"
+        :class="[color, size]"
     >
         <slot />
     </button>
@@ -13,7 +13,8 @@ defineProps({
     color: {
         type: String,
         default: 'primary'
-    }
+    },
+    size: String
 })
 </script>
 
@@ -28,6 +29,7 @@ defineProps({
     font-size: 20px;
     line-height: 26px;
 
+    // Colors
     &.primary {
         background-color: $black;
         color: $white;
@@ -36,6 +38,14 @@ defineProps({
     &.secondary {
         background-color: $green;
         color: $black;
+    }
+
+    // Sizes
+    &.large {
+        height: 100px;
+        padding: 24px 48px;
+        font-size: 40px;
+        line-height: 52px;
     }
 }
 </style>

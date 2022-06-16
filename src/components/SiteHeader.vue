@@ -2,7 +2,7 @@
     <header class="header">
         <div class="header__container">
             <KButton
-                color="secondary"
+
             >
                 button
             </KButton>
