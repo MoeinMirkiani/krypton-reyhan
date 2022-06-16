@@ -1,8 +1,12 @@
 <template>
     <header class="header">
         <div class="header__container">
+            <KButton color="secondary">
+                {{ $t('header.login') }}
+            </KButton>
+
             <KButton>
-                {{ $t('message.hello') }}
+                {{ $t('header.register') }}
             </KButton>
         </div>
     </header>

@@ -30,13 +30,13 @@ defineProps({
 
     // Colors
     &.primary {
-        background-color: $black;
+        background-color: $navy-blue;
         color: $white;
     }
 
     &.secondary {
-        background-color: $green;
-        color: $black;
+        background-color: $light-gray;
+        color: $navy-blue;
     }
 
     // Sizes
