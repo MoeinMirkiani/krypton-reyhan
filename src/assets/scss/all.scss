@@ -7,11 +7,20 @@ $green: #52CC83;
 $navy-blue: #191433;
 $light-gray: #F2F2F2;
 
-/***** Font Family *****/
+/***** Font Families *****/
 .font-dm {
     font-family: 'DM Sans', sans-serif !important;
 }
 
 .font-saira {
     font-family: 'Saira', sans-serif !important;
+}
+
+/***** Mixins *****/
+@mixin flex-box($direction: row, $justify: center, $align: center, $wrap: no-wrap) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
 }
