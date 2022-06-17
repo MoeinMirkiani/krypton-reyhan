@@ -1,7 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
 
 $white: #fff;
 $black: #000;
 $green: #52CC83;
 $navy-blue: #191433;
 $light-gray: #F2F2F2;
+
+/***** Font Family *****/
+.font-dm {
+    font-family: 'DM Sans', sans-serif !important;
+}
+
+.font-saira {
+    font-family: 'Saira', sans-serif !important;
+}

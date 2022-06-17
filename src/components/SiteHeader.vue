@@ -1,5 +1,5 @@
 <template>
-    <header class="header">
+    <header class="header font-dm">
         <div class="header__container">
             <KButton color="secondary">
                 {{ $t('header.login') }}
