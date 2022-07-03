@@ -6,8 +6,8 @@
         <div class="section__hero-illustration">
             <img :src="require('@/assets/images/img---hero-person.png')" alt="krypton-hero-person" class="person" />
 
-            <img :src="require('@/assets/svg/hero-person-bg-red.svg')" alt="krypton-hero-bg-red" class="capsule capsule__red" />
-            <img :src="require('@/assets/svg/hero-person-bg-blue.svg')" alt="krypton-hero-bg-blue" class="capsule capsule__blue" />
+            <span class="capsule capsule__red"></span>
+            <span class="capsule capsule__blue"></span>
 
             <img :src="require('@/assets/svg/bitcoin.svg')" alt="krypton-hero-bitcoin" class="crypto crypto__bitcoin" />
             <img :src="require('@/assets/svg/ethereum.svg')" alt="krypton-hero-ethereum" class="crypto crypto__ethereum" />
@@ -42,16 +42,20 @@
             }
 
             .capsule {
-                width: 92px;
+                width: 90px;
+                height: 300px;
+                border-radius: 90px;
                 position: absolute;
 
                 &__red {
+                    background: linear-gradient(#F54128, #F52870);
                     top: 120px;
                     right: 0;
                     z-index: 1;
                 }
 
                 &__blue {
+                    background: linear-gradient(#0359FF, #03F0FF);
                     bottom: 60px;
                     left: 0;
                     z-index: 3;
